@@ -10,7 +10,7 @@ end
 def input_to_index(input)
   input_integer = input.to_i
   board_position = input_integer - 1
-  return board_position
+  board_position
 end
 
 def move  
